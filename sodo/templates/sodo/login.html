@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#content
+		{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+		.item
+		{
+			display: flex;
+			justify-content: center;
+		}
+		.header
+		{
+			padding: 3em;
+
+		}
+		.central
+		{
+			padding: 3em;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+
+		}
+		.footer
+		{
+			padding: 3em;
+
+		}
+
+		body
+		{
+
+			background-image: url(images/fondo3.jpg);
+			font-family: sans-serif;
+
+		}
+
+		label
+		{
+
+		}
+		input
+		{
+			margin-bottom: 1em;
+			background: none;
+			border-radius: 4px;
+			padding: 1em;
+      width: 300px;
+			border-top-style: none;
+			border-right-style: none;
+
+		}
+		button
+		{
+			background: #446EA6;
+			border-style: none;
+			padding: 1em;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="item header">
+			<h1>SISTEMA DE ORGANIZACION DOCENTE</h1>
+		</div>
+		<div class="item central">
+			<label for="">Usuario: </label>
+			<input type="text" autofocus="" placeholder="Ingrese su nombre de usuario">
+			<label for="">Clave: </label>
+			<input type="text" placeholder="Ingrese su clave de acceso">
+			<button> √ </button>
+		</div>
+		<div class="item footer">
+			<p class="pie__copy">Copyright © </p>
+		</div>
+	</div>
+
+</body>
+</html>
